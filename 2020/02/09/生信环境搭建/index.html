@@ -6,15 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Weber Blog</title>
+  <title>生信环境搭建 | Weber Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Weber Blog">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="生信环境必备配置github 如何在ubuntu下使用Github？  使用git123456789101112131415## 初始化仓库cd ~&#x2F;bingit init## 更改本地文件touch READMEgit add README## 更新日志git commit -m &#39;A new update for bioinf functions&#39;## pushgit push origin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="生信环境搭建">
+<meta property="og:url" content="http://yoursite.com/2020/02/09/%E7%94%9F%E4%BF%A1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/index.html">
 <meta property="og:site_name" content="Weber Blog">
+<meta property="og:description" content="生信环境必备配置github 如何在ubuntu下使用Github？  使用git123456789101112131415## 初始化仓库cd ~&#x2F;bingit init## 更改本地文件touch READMEgit add README## 更新日志git commit -m &#39;A new update for bioinf functions&#39;## pushgit push origin">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://picture.hwb0307.top/images/2019/10/07/KQNRAsTJdqu89i0U.jpg">
+<meta property="article:published_time" content="2020-02-09T07:24:47.484Z">
+<meta property="article:modified_time" content="2020-02-09T07:36:44.358Z">
 <meta property="article:author" content="Weber Huang">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://picture.hwb0307.top/images/2019/10/07/KQNRAsTJdqu89i0U.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Weber Blog" type="application/atom+xml">
   
@@ -150,157 +156,294 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-生信环境搭建" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      生信环境搭建
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/02/09/%E7%94%9F%E4%BF%A1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/" class="archive-article-date">
+
+        
+        <a href="/2020/02/09/%E7%94%9F%E4%BF%A1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/" class="archive-article-date">
   	<time datetime="2020-02-09T07:24:47.484Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-09</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/02/09/%E7%94%9F%E4%BF%A1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">生信环境搭建</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="生信环境必备配置"><a href="#生信环境必备配置" class="headerlink" title="生信环境必备配置"></a>生信环境必备配置</h1><h2 id="github"><a href="#github" class="headerlink" title="github"></a>github</h2><blockquote>
+<p><a href="https://blog.csdn.net/tina_ttl/article/details/51326684" target="_blank" rel="noopener">如何在ubuntu下使用Github？</a></p>
+</blockquote>
+<h3 id="使用git"><a href="#使用git" class="headerlink" title="使用git"></a>使用git</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 初始化仓库</span></span></span><br><span class="line">cd ~/bin</span><br><span class="line">git init</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 更改本地文件</span></span></span><br><span class="line">touch README</span><br><span class="line">git add README</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 更新日志</span></span></span><br><span class="line">git commit -m 'A new update for bioinf functions'</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># push</span></span></span><br><span class="line">git push origin master</span><br><span class="line"><span class="meta">#</span><span class="bash"> git remote add origin https://github.com/huangwb8/bioinf.git <span class="comment">#可能会输入git的帐号和密码</span></span></span><br><span class="line"><span class="meta">#</span></span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-          
+<h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 安装git</span></span></span><br><span class="line">sudo apt-get install git</span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 检查SSH</span></span></span><br><span class="line">ssh -T git@github.com # Warning: Permanently added ‘github.com,204.232.175.90’ (RSA) to the list of known hosts. Permission denied (publickey).  说明可以连接</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 检查是否已井具有ssh keys</span></span></span><br><span class="line">cd ~/.ssh; ls</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 备份并移除已经存在的ssh keys</span></span></span><br><span class="line">mkdir key_backup; cp id_rsa* key_backup ; rm id_rsa* </span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 执行如下命令</span></span></span><br><span class="line">ssh-keygen -t rsa -C "654751191@qq.com" #输入帐号和密码。后来，id_rsa（私钥）和id_rsa.pub（公钥）就被创建了</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 再次检查与github的连接</span></span></span><br><span class="line">ssh -T git@github.com # Hi alioth310! You’ve successfully uthenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
 
+<h3 id="解决每次git-pull-git-push都需输入密码设置"><a href="#解决每次git-pull-git-push都需输入密码设置" class="headerlink" title="解决每次git pull/git push都需输入密码设置"></a><a href="https://www.cnblogs.com/yulongcode/p/10882203.html" target="_blank" rel="noopener">解决每次git pull/git push都需输入密码设置</a></h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 执行这两条命令</span></span></span><br><span class="line">cd /</span><br><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure>
+
+<p>执行完命令之后会在.gitconfig文件中多加红色字体</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[user]</span><br><span class="line">        name &#x3D; your name</span><br><span class="line">        email &#x3D; your email</span><br><span class="line">[credential]</span><br><span class="line">        helper &#x3D; store</span><br></pre></td></tr></table></figure>
+
+<p>使用：cd到项目目录，执行git pull,会提示输入账号密码。输完这一次以后git pull或git push就不在需要输入密码了（会在根目录生成一个 .git-credentials 文件）</p>
+<h2 id="conda类"><a href="#conda类" class="headerlink" title="conda类"></a>conda类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda activate base</span><br><span class="line">nohup conda install fastqc multiqc bowtie2 bwa samtools gatk4 qualimap --y &amp;</span><br></pre></td></tr></table></figure>
+
+<h2 id="apt-get类"><a href="#apt-get类" class="headerlink" title="apt-get类"></a>apt-get类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install pigz</span><br></pre></td></tr></table></figure>
+
+<h2 id="sratoolkit"><a href="#sratoolkit" class="headerlink" title="sratoolkit"></a>sratoolkit</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.6/sratoolkit.2.9.6-ubuntu64.tar.gz</span><br><span class="line">tar zxvf sratoolkit.2.9.6-ubuntu64.tar.gz</span><br><span class="line">cd sratoolkit.2.9.6-ubuntu64</span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 添加环境路径；vim</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 测试软件是否安装成功</span></span></span><br><span class="line">prefetch --version</span><br></pre></td></tr></table></figure>
+
+<h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><blockquote>
+<p>主要是python3的环境.conda会自动安装python2环境.</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># python3</span></span></span><br><span class="line">cd ~/Downloads</span><br><span class="line">mkdir -p python &amp;&amp; cd python</span><br><span class="line">wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz</span><br><span class="line">tar zxvf Python-3.7.3.tgz</span><br><span class="line">cd Python-3.7.3</span><br><span class="line">./configure --prefix="/home/huangwb8/Downloads/python/"</span><br><span class="line">make</span><br><span class="line">make install</span><br><span class="line">cd ../bin</span><br><span class="line">ls * | while read id; do ln -s /home/huangwb8/Downloads/python/bin/$&#123;id&#125; /usr/bin/$&#123;id&#125;; done</span><br><span class="line">which python3 </span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># python2</span></span></span><br><span class="line">cd ~/Downloads</span><br><span class="line">mkdir -p python2 &amp;&amp; cd python2</span><br><span class="line">nohup wget https://www.python.org/ftp/python/2.7.8/Python-2.7.8.tgz &amp;</span><br><span class="line">tar zxvf Python-3.7.3.tgz</span><br><span class="line">cd Python-2.7.8</span><br><span class="line">./configure --prefix="/home/huangwb8/Downloads/python2/" #安装目录</span><br><span class="line">make</span><br><span class="line">make install</span><br><span class="line">cd ../bin</span><br><span class="line">ls * | while read id; do sudo ln -s /home/huangwb8/Downloads/python2/bin/$&#123;id&#125;  /home/huangwb8/bin/$&#123;id&#125;; done</span><br></pre></td></tr></table></figure>
+
+<h2 id="cutadapt-amp-trim-galore"><a href="#cutadapt-amp-trim-galore" class="headerlink" title="cutadapt &amp; trim_galore"></a>cutadapt &amp; trim_galore</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 安装cutadapt（需要python3环境）</span></span></span><br><span class="line">pip3 install --user --upgrade cutadapt</span><br><span class="line">cutadapt --version</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 安装trim_galore（需要python3环境）</span></span></span><br><span class="line">mkdir -p ~/Download/trim_galore &amp;&amp; cd ~/Download/trim_galore</span><br><span class="line">curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.0.tar.gz -o trim_galore.tar.gz</span><br><span class="line">tar xvzf trim_galore.tar.gz</span><br><span class="line">sudo ln -s ~/Downloads/trim_galore/TrimGalore-0.6.0/trim_galore /usr/bin/trim_galore</span><br><span class="line">trim_galore --help</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载gnuplot-提供plot-bamstats函数"><a href="#下载gnuplot-提供plot-bamstats函数" class="headerlink" title="下载gnuplot(提供plot-bamstats函数)"></a>下载gnuplot(提供plot-bamstats函数)</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">wget https://jaist.dl.sourceforge.net/project/gnuplot/gnuplot/5.2.6/gnuplot-5.2.6.tar.gz </span><br><span class="line">tar -zxvf gnuplot-5.2.6.tar.gz</span><br><span class="line">cd gnuplot-5.2.6/</span><br><span class="line">./configure --prefix=/home/huangwb8/Downloads/gnuplot</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+
+<h2 id="bcftools"><a href="#bcftools" class="headerlink" title="bcftools"></a>bcftools</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">p=~/Download/bcftools; mkdir -p $p; cd $p</span><br><span class="line">wget https://github.com/samtools/bcftools/releases/download/1.8/bcftools-1.8.tar.bz2 -b -c -T 120 -t inf  -o download_bcftools.log</span><br><span class="line">tar xjvf bcftools-1.8.tar.bz2</span><br><span class="line">cd bcftools-1.8/</span><br><span class="line">./configure</span><br><span class="line">make</span><br></pre></td></tr></table></figure>
+
+<h2 id="ANNOVAR"><a href="#ANNOVAR" class="headerlink" title="ANNOVAR"></a>ANNOVAR</h2><blockquote>
+<p><a href="http://www.bio-info-trainee.com/4007.html" target="_blank" rel="noopener">ANNOVAR 软件用法还可以更复杂</a></p>
+<p><a href="https://mp.weixin.qq.com/s/GxqzKU7OPAMbjbZ5fPk7oQ" target="_blank" rel="noopener">【直播】我的基因组 32：使用annovar注释vcf</a></p>
+<p>官方文档：<a href="http://annovar.openbioinformatics.org/en/latest/" target="_blank" rel="noopener">http://annovar.openbioinformatics.org/en/latest/</a></p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 进入软件安装目录运行</span></span><br><span class="line">annovar=/data/annovar/annovar</span><br><span class="line">cd $annovar</span><br><span class="line">sudo vim ~/.bashrc # 添加/data/annovar/annovar到环境路径</span><br><span class="line">nohup annotate_variation.pl -downdb -webfrom annovar gnomad_genome --buildver hg38 ./humandb/ &gt; down.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 可以看到需要选择参考基因组版本，这里一般是 hg38, 很少看到hg19了。</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 然后是 数据库名字，在 http://annovar.openbioinformatics.org/en/latest/user-guide/download/ 全部列出。</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 其实就是相当于执行了下面的命令而已。</span></span></span><br><span class="line">wget -t 1 -T 30 -q -O hg38_gnomad_genome.txt.gz http://www.openbioinformatics.org/annovar/download/hg38_gnomad_genome.txt.gz</span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 这个文件解压后有16G，注意云服务器的空间。</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 通常要下载的数据库非常多，包括：dbSNP,ExAC,ESP6500,cosmic,gnomad,1000genomes,clinvar,gwas等等</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 当然，注释上，并不等价于理解它们，这是很大的工作量。</span></span><br><span class="line">gversion=hg38</span><br><span class="line">nohup time annotate_variation.pl -buildver $gversion -downdb -webfrom annovar refGene humandb/ &gt; $&#123;gversion&#125;.refGene.log 2&gt;&amp;1 &amp;</span><br><span class="line">nohup time annotate_variation.pl -buildver $gversion -downdb cytoBand humandb/ &gt; $&#123;gversion&#125;.cytoBand.log 2&gt;&amp;1 &amp;</span><br><span class="line">nohup time annotate_variation.pl -buildver $gversion -downdb -webfrom annovar exac03 humandb/ &gt; $&#123;gversion&#125;.exac03.log 2&gt;&amp;1 &amp;</span><br><span class="line">nohup time annotate_variation.pl -buildver $gversion -downdb -webfrom annovar avsnp147 humandb/ &gt; $&#123;gversion&#125;.avsnp147.log 2&gt;&amp;1 &amp;</span><br><span class="line">nohup time annotate_variation.pl -buildver $gversion -downdb -webfrom annovar dbnsfp30a humandb/ &gt; $&#123;gversion&#125;.dbnsfp30a.log 2&gt;&amp;1 &amp;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+<h1 id="WGS环境配置"><a href="#WGS环境配置" class="headerlink" title="WGS环境配置"></a>WGS环境配置</h1><h2 id="conda类-1"><a href="#conda类-1" class="headerlink" title="conda类"></a>conda类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda create -n wgs</span><br><span class="line">conda activate wgs</span><br><span class="line">nohup conda install  --y &amp;</span><br></pre></td></tr></table></figure>
+
+<h1 id="WES环境配置"><a href="#WES环境配置" class="headerlink" title="WES环境配置"></a>WES环境配置</h1><h2 id="conda类-2"><a href="#conda类-2" class="headerlink" title="conda类"></a>conda类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda create -n wes</span><br><span class="line">conda activate wes</span><br><span class="line">nohup conda install bedtools --y &amp;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h1 id="CHIP-Seq软件环境配置"><a href="#CHIP-Seq软件环境配置" class="headerlink" title="CHIP-Seq软件环境配置"></a>CHIP-Seq软件环境配置</h1><h2 id="conda类-3"><a href="#conda类-3" class="headerlink" title="conda类"></a>conda类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda create -n chip-seq</span><br><span class="line">conda activate chip-seq</span><br><span class="line">nohup conda install bedtools peakranger macs2 homer samtools deeptools --y &amp;</span><br></pre></td></tr></table></figure>
+
+<h2 id="homer环境配置"><a href="#homer环境配置" class="headerlink" title="homer环境配置"></a>homer环境配置</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># homer环境配置</span></span></span><br><span class="line">ws_homer=/data/reference/homer</span><br><span class="line">path_log=$ws_homer/log/configureHomer_install</span><br><span class="line">mkdir -p $ws_homer $path_log</span><br><span class="line">cd $ws_homer #所有的工作都在homer当前目录下运行</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 下载配置文件</span></span></span><br><span class="line">wget http://homer.salk.edu/homer/configureHomer.pl</span><br><span class="line">nohup perl configureHomer.pl -install &gt; $path_log/homer.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f homer.log</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 设置home/bin目录至该用户的永久环境路径，方便日后调用</span></span></span><br><span class="line">vim ~/.bashrc</span><br><span class="line"><span class="meta">#</span><span class="bash">添加/data/reference/homer/bin</span></span><br><span class="line">source ~/.bashrc</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 查看软件信息以获取下载名</span></span></span><br><span class="line">perl configureHomer.pl -list</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 下载</span></span></span><br><span class="line">nohup time perl configureHomer.pl -install mm9 &gt; $path_log/configureHomer_install_mm9.log 2&gt;&amp;1 &amp; </span><br><span class="line"><span class="meta">#</span><span class="bash"> 鼠启动子</span></span><br><span class="line">nohup time perl configureHomer.pl -install mouse-p &gt; $path_log/configureHomer_install_mouse-p.log 2&gt;&amp;1 &amp; </span><br><span class="line"></span><br><span class="line">nohup time perl configureHomer.pl -install hg38 &gt; $path_log/configureHomer_install_hg38.log 2&gt;&amp;1 &amp; </span><br><span class="line"></span><br><span class="line">nohup time perl configureHomer.pl -install mm10 &gt; $path_log/configureHomer_install_mm10.log 2&gt;&amp;1 &amp; </span><br><span class="line"></span><br><span class="line">nohup time perl configureHomer.pl -install hg19 &gt; $path_log/configureHomer_install_hg19.log 2&gt;&amp;1 &amp; </span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 日志</span></span><br><span class="line">tail -f $path_log/*.log</span><br></pre></td></tr></table></figure>
+
+<h1 id="RNA-seq环境"><a href="#RNA-seq环境" class="headerlink" title="RNA-seq环境"></a>RNA-seq环境</h1><h2 id="conda类-4"><a href="#conda类-4" class="headerlink" title="conda类"></a>conda类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda create -n rna-seq</span><br><span class="line">conda activate rna-seq</span><br><span class="line">nohup conda install htseq hisat2 subread cufflinks --y &amp;</span><br></pre></td></tr></table></figure>
+
+<h1 id="Single-Cell-Seq环境"><a href="#Single-Cell-Seq环境" class="headerlink" title="Single Cell-Seq环境"></a>Single Cell-Seq环境</h1><h2 id="conda类-5"><a href="#conda类-5" class="headerlink" title="conda类"></a>conda类</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda create -n scs</span><br><span class="line">conda activate scs</span><br><span class="line">conda install -y  subread &amp;</span><br></pre></td></tr></table></figure>
+
+<h2 id="RSeQC"><a href="#RSeQC" class="headerlink" title="RSeQC"></a>RSeQC</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">ws=~/Downloads/RSeQC; mkdir -p $ws; cd$ws</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 下载</span></span></span><br><span class="line">dl_wget https://jaist.dl.sourceforge.net/project/rseqc/RSeQC-3.0.1.tar.gz</span><br><span class="line">tar zxvf RSeQC-3.0.1.tar.gz; mv ./RSeQC-3.0.1 .; rm ./RSeQC-3.0.1</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 添加python3库</span></span></span><br><span class="line">sudo python3 ./setup.py install --root=/usr/bin</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 将库的软链添到python3现存库里</span></span></span><br><span class="line">lib=/home/huangwb8/Downloads/RSeQC/lib</span><br><span class="line">ls $lib | while read id; do (ln -s $lib/$id  /home/huangwb8/Downloads/python/lib/python3.7/site-packages); done </span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 设置</span></span></span><br><span class="line">sudo ln -s python3.7 python</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+<h1 id="参考基因组"><a href="#参考基因组" class="headerlink" title="参考基因组"></a>参考基因组</h1><h2 id="人参考基因组h19"><a href="#人参考基因组h19" class="headerlink" title="人参考基因组h19"></a><a href="https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/" target="_blank" rel="noopener">人参考基因组h19</a></h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nohup wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz &amp;  # h19</span><br></pre></td></tr></table></figure>
+<h2 id="人参考基因组hg38"><a href="#人参考基因组hg38" class="headerlink" title="人参考基因组hg38"></a><a href="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/" target="_blank" rel="noopener">人参考基因组hg38</a></h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">nohup wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chromFa.tar.gz &amp; # hg38</span><br><span class="line">tar -zvf **chromFa.tar.gz</span><br><span class="line">touch hg38.fa</span><br><span class="line">cat *.fa &gt; hg38.fa</span><br><span class="line">rm chr*</span><br></pre></td></tr></table></figure>
+
+<h2 id="鼠mm9基因组"><a href="#鼠mm9基因组" class="headerlink" title="鼠mm9基因组"></a><a href="http://hgdownload.cse.ucsc.edu/goldenPath/mm9/bigZips/chromFa.tar.gz" target="_blank" rel="noopener">鼠mm9基因组</a></h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar -zvf **chromFa.tar.gz</span><br><span class="line">mkdir chromFa;mv *fa ./chromFa</span><br><span class="line">touch mm9.fa</span><br><span class="line">cat ./chromFa/*.fa &gt; mm9.fa</span><br><span class="line">rm -r ./chromFa</span><br></pre></td></tr></table></figure>
+
+<h2 id="鼠mm10基因组"><a href="#鼠mm10基因组" class="headerlink" title="鼠mm10基因组"></a><a href="http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz" target="_blank" rel="noopener">鼠mm10基因组</a></h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># fasta</span></span></span><br><span class="line">tar -zvf **chromFa.tar.gz</span><br><span class="line">mkdir chromFa;mv *fa ./chromFa</span><br><span class="line">touch mm10.fa</span><br><span class="line">cat ./chromFa/*.fa &gt; mm10.fa</span><br><span class="line">rm -r ./chromFa</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># gtf</span></span></span><br><span class="line">path_gtf=/data/reference/gtf/mm10_gencode.vM23.annotation.gtf.gz</span><br><span class="line">ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/gencode.vM23.annotation.gtf.gz</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="miRbase"><a href="#miRbase" class="headerlink" title="miRbase"></a>miRbase</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ws=/data/reference/miRNA;</span><br><span class="line">wget ftp://mirbase.org/pub/mirbase/CURRENT/hairpin.fa.gz -b -c -T 120 -t inf -P $ws -o $ws/hairpin.log</span><br><span class="line">wget ftp://mirbase.org/pub/mirbase/CURRENT/mature.fa.gz -b -c -T 120 -t inf -P $ws -o $ws/mature.fa.log</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="索引文件制作"><a href="#索引文件制作" class="headerlink" title="索引文件制作"></a>索引文件制作</h1><blockquote>
+<p>学习文献：<a href="https://www.jianshu.com/p/071c1757ded1" target="_blank" rel="noopener">bwa bowtie2 salmon subread hisat2建索引和比对</a></p>
+</blockquote>
+<h2 id="bowtie软件建立索引文件"><a href="#bowtie软件建立索引文件" class="headerlink" title="bowtie软件建立索引文件"></a>bowtie软件建立索引文件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 参考</span></span><br><span class="line">cd ~/reference</span><br><span class="line">mkdir -p index/bowtie &amp;&amp; cd index/bowtie</span><br><span class="line">nohup time ~/biosoft/bowtie/bowtie2-2.2.9/bowtie2-build  ~/reference/genome/hg19/hg19.fa  ~/reference/index/bowtie/hg19 1&gt;hg19.bowtie_index.log 2&gt;&amp;1 &amp;</span><br><span class="line">nohup time ~/biosoft/bowtie/bowtie2-2.2.9/bowtie2-build  ~/reference/genome/hg38/hg38.fa  ~/reference/index/bowtie/hg38 1&gt;hg38.bowtie_index.log 2&gt;&amp;1 &amp;</span><br><span class="line">nohup time ~/biosoft/bowtie/bowtie2-2.2.9/bowtie2-build  ~/reference/genome/mm10/mm10.fa  ~/reference/index/bowtie/mm10 1&gt;mm10.bowtie_index.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 个人</span></span><br><span class="line">mkdir hg19 &amp;&amp; cd hg19</span><br><span class="line">nohup time bowtie2-build --threads 48 /data/reference/genome/hg19/hg19.fa hg19 &gt;hg19.bowtie_index.log 2&gt;&amp;1 &amp;</span><br><span class="line">mkdir hg38 &amp;&amp; cd hg38</span><br><span class="line">nohup time bowtie2-build --threads 48 /data/reference/genome/hg38/hg38.fa hg38 &gt;hg38.bowtie_index.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> pre-miRNA</span></span><br><span class="line">ws=/data/reference/miRNA; mkdir -p $ws/bowtie2</span><br><span class="line">nohup bowtie2-build --threads 48 $ws/hairpin.fa  $ws/bowtie2/hairpin &gt; $ws/bowtie2/hairpin.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f $ws/bowtie2/hairpin.log</span><br></pre></td></tr></table></figure>
+
+<h2 id="bwa软件建立索引文件"><a href="#bwa软件建立索引文件" class="headerlink" title="bwa软件建立索引文件"></a>bwa软件建立索引文件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># hg19</span></span></span><br><span class="line">mkdir hg19 &amp;&amp; cd hg19</span><br><span class="line">nohup time bwa index -a bwtsw -p hg19 /data/reference/genome/hg19/hg19.fa 1&gt;hg19.bwa_index.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># hg38</span></span></span><br><span class="line">mkdir hg38 &amp;&amp; cd hg38</span><br><span class="line">nohup time bwa index -a bwtsw -p hg38 /data/reference/genome/hg38/hg38.fa 1&gt;hg38.bwa_index.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># mm9</span></span></span><br><span class="line">ws=/data/reference/mouse/mm9</span><br><span class="line">mkdir -p $ws/index/bwa</span><br><span class="line">cd $ws/index/bwa</span><br><span class="line">nohup time bwa index -a bwtsw -p $ws/index/bwa/mm9 $ws/genome/mm9.fa 1&gt;mm9.bwa_index.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f mm9.bwa_index.log</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># mm10</span></span></span><br><span class="line">ws=/data/reference/mouse/mm10</span><br><span class="line">mkdir -p $ws/index/bwa</span><br><span class="line">cd $ws/index/bwa</span><br><span class="line">nohup time bwa index -a bwtsw -p $ws/index/bwa/mm10 $ws/genome/mm10.fa 1&gt;mm10.bwa_index.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f /data/reference/mouse/mm10/index/bwa/mm10.bwa_index.log</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> pre-miRNA</span></span><br><span class="line">ws=/data/reference/miRNA; mkdir -p $ws/bwa</span><br><span class="line">nohup bwa index -p $ws/bwa/hairpin $ws/hairpin.fa &gt; $ws/bwa/hairpin.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f $ws/bwa/hairpin.log</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="hisat软件建立索引文件"><a href="#hisat软件建立索引文件" class="headerlink" title="hisat软件建立索引文件"></a>hisat软件建立索引文件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">cd ~/reference</span><br><span class="line">mkdir -p index/hisat &amp;&amp; cd index/hisat</span><br><span class="line">nohup wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg19.tar.gz  &amp;</span><br><span class="line">nohup wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz  &amp;</span><br><span class="line">nohup wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/grcm38.tar.gz &amp;</span><br><span class="line">tar zxvf hg19.tar.gz</span><br><span class="line">tar zxvf grcm38.tar.gz</span><br><span class="line">tar zxvf hg38.tar.gz</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> pre-miRNA</span></span><br><span class="line">ws=/data/reference/miRNA; mkdir -p $ws/hisat2</span><br><span class="line">nohup hisat2-build -p 48 $ws/hairpin.fa  $ws/hisat2/hairpin &gt; $ws/hisat2/hairpin.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f $ws/hisat2/hairpin.log</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> mm10</span></span><br><span class="line">index=/data/reference/mouse/mm10/index/hisat2</span><br><span class="line">genome=/data/reference/mouse/mm10/genome/mm10.fa</span><br><span class="line">nohup hisat2-build -p 48 $genome  $index/mm10 &gt; $index/mm10.log 2&gt;&amp;1 &amp;</span><br><span class="line">tail -f $index/mm10.log</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="star索引文件"><a href="#star索引文件" class="headerlink" title="star索引文件"></a>star索引文件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">注意--sjdbOverhang 参数为reads的长度-1</span></span><br><span class="line"><span class="meta">#</span><span class="bash">模式选择为 genomeGenerate </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> gtf一定要是非压缩形式</span></span><br><span class="line"></span><br><span class="line">mkdir star &amp;&amp; cd star</span><br><span class="line"><span class="meta">#</span><span class="bash"> hg38</span></span><br><span class="line">mkdir hg38; cd hg38</span><br><span class="line">nohup STAR \</span><br><span class="line">    --runMode genomeGenerate \</span><br><span class="line">    --genomeDir . \</span><br><span class="line">    --genomeFastaFiles /data/reference/genome/hg38/hg38.fa \</span><br><span class="line">    --runThreadN 30 \</span><br><span class="line">    --sjdbGTFfile /data/reference/gtf/raw/hg38_gencode.v32.annotation.gtf \</span><br><span class="line">    &gt; star_index_hg38.log 2&gt;&amp;1 &amp;</span><br><span class="line">    </span><br><span class="line">nohup STAR \</span><br><span class="line">    --runMode genomeGenerate \</span><br><span class="line">    --genomeDir . \</span><br><span class="line">    --genomeFastaFiles /data/reference/genome/hg38/hg38.fa \</span><br><span class="line">    --runThreadN 48 \</span><br><span class="line">    &gt; star_index_hg38.log 2&gt;&amp;1 &amp;</span><br><span class="line">    </span><br><span class="line"><span class="meta">#</span><span class="bash"> hg19</span></span><br><span class="line">mkdir hg19; cd hg19</span><br><span class="line">nohup STAR \</span><br><span class="line">    --runMode genomeGenerate \</span><br><span class="line">    --genomeDir . \</span><br><span class="line">    --genomeFastaFiles /data/reference/genome/hg19/hg19.fa \</span><br><span class="line">    --runThreadN 30 \</span><br><span class="line">    --sjdbGTFfile /data/reference/gtf/raw/gencode.v19.annotation.gtf \</span><br><span class="line">    &gt; star_index_hg19.log 2&gt;&amp;1 &amp;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="subjunc"><a href="#subjunc" class="headerlink" title="subjunc"></a>subjunc</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># 用法</span></span></span><br><span class="line">subjunc -T 5 -i &lt;index.pre&gt; -r fq1 -R fq2 -o *.bam</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># index</span></span></span><br><span class="line">conda activate rna-seq</span><br><span class="line">conda install subread</span><br><span class="line">index=/data/reference/index/subread</span><br><span class="line">cd $index</span><br><span class="line">mkdir -p $index/&#123;mm10,mm9,hg19,hg38&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># make index</span></span></span><br><span class="line">cd $index/hg38; nohup subread-buildindex -o $index/hg38/hg38 /data/reference/genome/hg38/hg38.fa &gt; ../subread_index_hg38.log 2&gt;&amp;1 &amp;</span><br><span class="line">cd $index/hg19; nohup subread-buildindex -o $index/hg19/hg19 /data/reference/genome/hg19/hg19.fa &gt; ../subread_index_hg19.log 2&gt;&amp;1 &amp;</span><br><span class="line">cd $index/mm10; nohup subread-buildindex -o $index/mm10/mm10  /data/reference/mouse/mm10/genome/mm10.fa &gt; ../subread_index_mm10.log 2&gt;&amp;1 &amp;</span><br><span class="line">cd $index/mm9; nohup subread-buildindex -o $index/mm9/mm9  /data/reference/mouse/mm9/genome/mm9.fa &gt; ../subread_index_mm9.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># log</span></span></span><br><span class="line">tail -f $index/subread_index*log</span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">kill</span> -9 `ps -ef | grep subread | awk <span class="string">'&#123;print $2&#125;'</span>`</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="基因组bed文件下载"><a href="#基因组bed文件下载" class="headerlink" title="基因组bed文件下载"></a>基因组bed文件下载</h1><h2 id="RNA-seq"><a href="#RNA-seq" class="headerlink" title="RNA-seq"></a>RNA-seq</h2><blockquote>
+<p>需要提供bed文件，可以直接RSeQC的网站下载(看文件只有1M多，就没有考虑转换</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget https://downloads.sourceforge.net/project/rseqc/BED/Human_Homo_sapiens/hg19_RefSeq.bed.gz</span><br><span class="line">read_distribution.py -i SRR3589958_sorted.bam -r /data/reference/rseqc/hg19_RefSeq.bed</span><br></pre></td></tr></table></figure>
+<h2 id="Chip-seq"><a href="#Chip-seq" class="headerlink" title="Chip-seq"></a>Chip-seq</h2><blockquote>
+<p><a href="https://www.jianshu.com/p/31bb9d2b84b0" target="_blank" rel="noopener">如何从UCSC获取感兴趣区域的BED文件</a></p>
+<p><a href="https://genome.ucsc.edu/cgi-bin/hgTables" target="_blank" rel="noopener">ucsc table browser</a></p>
+</blockquote>
+<p><img src="https://picture.hwb0307.top/images/2019/10/07/KQNRAsTJdqu89i0U.jpg" alt="基因组bed文件下载-right.jpg"></p>
+<p>主要是这个output format要选对.否则分析的时候会错误.</p>
+<h2 id="CCDS-exon"><a href="#CCDS-exon" class="headerlink" title="CCDS exon"></a>CCDS exon</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /data/reference/CCDS/mouse</span><br><span class="line">cat CCDS.current.txt | perl -alne '&#123;/\[(.*?)\]/;next unless $1;$gene=$F[2];$exons=$1;$exons=~s/\s//g;$exons=~s/-/\t/g;print "$F[0]\t$_\t$gene" foreach split/,/,$exons;&#125;'| sort -u | bedtools sort -i | awk '&#123;print "chr"$0"\t0\t+"&#125;'&gt; mm10.exon.bed</span><br><span class="line">bed=/data/reference/CCDS/mouse/mm10.exon.bed</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/02/09/%E7%94%9F%E4%BF%A1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/02/09/Decision%20curve%20analysis%E5%AD%A6%E4%B9%A0/" class="archive-article-date">
-  	<time datetime="2020-02-09T07:24:47.483Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-09</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/02/09/Decision%20curve%20analysis%E5%AD%A6%E4%B9%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Decision curve analysis学习</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/02/09/Decision%20curve%20analysis%E5%AD%A6%E4%B9%A0/">Decision curve analysis学习</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#生信环境必备配置"><span class="toc-number">1.</span> <span class="toc-text">生信环境必备配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#github"><span class="toc-number">1.1.</span> <span class="toc-text">github</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用git"><span class="toc-number">1.1.1.</span> <span class="toc-text">使用git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装git"><span class="toc-number">1.1.2.</span> <span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#解决每次git-pull-git-push都需输入密码设置"><span class="toc-number">1.1.3.</span> <span class="toc-text">解决每次git pull&#x2F;git push都需输入密码设置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#conda类"><span class="toc-number">1.2.</span> <span class="toc-text">conda类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#apt-get类"><span class="toc-number">1.3.</span> <span class="toc-text">apt-get类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#sratoolkit"><span class="toc-number">1.4.</span> <span class="toc-text">sratoolkit</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#python"><span class="toc-number">1.5.</span> <span class="toc-text">python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cutadapt-amp-trim-galore"><span class="toc-number">1.6.</span> <span class="toc-text">cutadapt &amp; trim_galore</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#下载gnuplot-提供plot-bamstats函数"><span class="toc-number">1.7.</span> <span class="toc-text">下载gnuplot(提供plot-bamstats函数)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bcftools"><span class="toc-number">1.8.</span> <span class="toc-text">bcftools</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ANNOVAR"><span class="toc-number">1.9.</span> <span class="toc-text">ANNOVAR</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#WGS环境配置"><span class="toc-number">2.</span> <span class="toc-text">WGS环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#conda类-1"><span class="toc-number">2.1.</span> <span class="toc-text">conda类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#WES环境配置"><span class="toc-number">3.</span> <span class="toc-text">WES环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#conda类-2"><span class="toc-number">3.1.</span> <span class="toc-text">conda类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CHIP-Seq软件环境配置"><span class="toc-number">4.</span> <span class="toc-text">CHIP-Seq软件环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#conda类-3"><span class="toc-number">4.1.</span> <span class="toc-text">conda类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#homer环境配置"><span class="toc-number">4.2.</span> <span class="toc-text">homer环境配置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#RNA-seq环境"><span class="toc-number">5.</span> <span class="toc-text">RNA-seq环境</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#conda类-4"><span class="toc-number">5.1.</span> <span class="toc-text">conda类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Single-Cell-Seq环境"><span class="toc-number">6.</span> <span class="toc-text">Single Cell-Seq环境</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#conda类-5"><span class="toc-number">6.1.</span> <span class="toc-text">conda类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#RSeQC"><span class="toc-number">6.2.</span> <span class="toc-text">RSeQC</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#参考基因组"><span class="toc-number">7.</span> <span class="toc-text">参考基因组</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#人参考基因组h19"><span class="toc-number">7.1.</span> <span class="toc-text">人参考基因组h19</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#人参考基因组hg38"><span class="toc-number">7.2.</span> <span class="toc-text">人参考基因组hg38</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#鼠mm9基因组"><span class="toc-number">7.3.</span> <span class="toc-text">鼠mm9基因组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#鼠mm10基因组"><span class="toc-number">7.4.</span> <span class="toc-text">鼠mm10基因组</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#miRbase"><span class="toc-number">8.</span> <span class="toc-text">miRbase</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#索引文件制作"><span class="toc-number">9.</span> <span class="toc-text">索引文件制作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#bowtie软件建立索引文件"><span class="toc-number">9.1.</span> <span class="toc-text">bowtie软件建立索引文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bwa软件建立索引文件"><span class="toc-number">9.2.</span> <span class="toc-text">bwa软件建立索引文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hisat软件建立索引文件"><span class="toc-number">9.3.</span> <span class="toc-text">hisat软件建立索引文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#star索引文件"><span class="toc-number">9.4.</span> <span class="toc-text">star索引文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#subjunc"><span class="toc-number">9.5.</span> <span class="toc-text">subjunc</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基因组bed文件下载"><span class="toc-number">10.</span> <span class="toc-text">基因组bed文件下载</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#RNA-seq"><span class="toc-number">10.1.</span> <span class="toc-text">RNA-seq</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Chip-seq"><span class="toc-number">10.2.</span> <span class="toc-text">Chip-seq</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CCDS-exon"><span class="toc-number">10.3.</span> <span class="toc-text">CCDS exon</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/02/09/Linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE/" class="archive-article-date">
-  	<time datetime="2020-02-09T07:24:47.482Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-09</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/02/09/Linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE/">Linux系统配置</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/02/09/Linux%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/" class="archive-article-date">
-  	<time datetime="2020-02-09T07:24:47.481Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-09</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/02/09/Linux%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/">Linux常用语句</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/02/09/bioinf/" class="archive-article-date">
-  	<time datetime="2020-02-09T07:24:47.479Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-09</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/02/09/bioinf/">bioinf</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -323,8 +466,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
